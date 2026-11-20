@@ -35,6 +35,9 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+from creator_mcp.outliers import days_since
+
 SAMPLE_DATA = ROOT / "sample_data"
 TRANSCRIPT = (SAMPLE_DATA / "sample_transcript.txt").read_text(encoding="utf-8")
 
@@ -171,8 +174,16 @@ def main() -> int:
               top["title"])
         check("top outlier score 4.86", top["outlier_score"] == 4.86,
               f"got {top['outlier_score']}")
-        check("top outlier velocity 95.1/day", top["velocity_per_day"] == 95.1,
-              f"got {top['velocity_per_day']}")
+        # Velocity depends on today's date (views / days since publish),
+        # so the expected value is computed from the same days_since()
+        # the server uses — a hardcoded 95.1 passed only on 2026-11-19
+        # and would fail in CI the next day.
+        expected_velocity = round(
+            62400 / days_since("2025-02-01T16:00:00Z"), 1
+        )
+        check("top outlier velocity matches views/days-since-publish",
+              top["velocity_per_day"] == expected_velocity,
+              f"got {top['velocity_per_day']}, expected {expected_velocity}")
         check("sample note present", "Sample mode" in out.get("note", ""))
 
         print("== repurpose_transcript ==")
