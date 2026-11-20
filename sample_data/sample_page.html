@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!-- Deliberately flawed fixture page for seo_audit_page tests.
+       Known flaws: title is 92 chars (too long), no meta description,
+       two H1 tags, og:description missing, one image without alt text,
+       175 visible words (thin, 100-299 band). Present on purpose:
+       canonical link, og:title, FAQPage JSON-LD schema, and /llms.txt
+       on the same origin. Expected audit score: 45/100 (8.5 of 19). -->
+  <title>Sample Page With A Very Long Title That Goes On And On And On Past Sixty Characters For Sure</title>
+  <link rel="canonical" href="http://127.0.0.1/sample_page.html">
+  <meta property="og:title" content="Sample Page">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is this page?", "acceptedAnswer": {"@type": "Answer", "text": "A test fixture."}}]}
+  </script>
+</head>
+<body>
+  <h1>First Heading On The Page</h1>
+  <h1>Second Heading That Should Not Exist</h1>
+  <p>This is a deliberately thin sample page built to test the single page SEO audit tool. It contains just enough words to sit between one hundred and three hundred visible words, so the word count check should score a half mark rather than a full pass or a complete fail. The page also carries a canonical link and an Open Graph title, but it is missing a meta description entirely and its title tag runs far too long for search results. Two heading one tags compete for the main heading, and one of the two images below has no alternative text at all, which hurts both accessibility and image search. The structured data is the one thing done right, with a small frequently asked questions block that search engines and AI answers can cite directly.</p>
+  <img src="cover-a.png" alt="A descriptive alt text for the first image">
+  <img src="cover-b.png">
+  <p><a href="/about">About this test site</a> and <a href="https://example.com">an external link</a>.</p>
+</body>
+</html>

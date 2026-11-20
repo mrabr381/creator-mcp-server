@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "creator-mcp-server": {
+      "args": [
+        "-m",
+        "creator_mcp"
+      ],
+      "command": "/path/to/creator-mcp-server/.venv/bin/python",
+      "env": {
+        "GEMINI_API_KEY": "",
+        "YOUTUBE_API_KEY": ""
+      }
+    }
+  }
+}

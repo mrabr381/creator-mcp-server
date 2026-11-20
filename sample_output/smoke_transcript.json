@@ -1,0 +1,753 @@
+{
+  "youtube_outlier_search": {
+    "ok": true,
+    "channel": {
+      "title": "Mystery Lane",
+      "handle": "@mysterylane",
+      "subscribers": 12400,
+      "video_count": 24,
+      "url": "https://www.youtube.com/@mysterylane"
+    },
+    "videos_analysed": 24,
+    "median_views": 12850.0,
+    "outliers": [
+      {
+        "video_id": "smp01",
+        "title": "The Tower of London's Lost Princes — What Really Happened?",
+        "views": 62400,
+        "outlier_score": 4.86,
+        "velocity_per_day": 95.1,
+        "days_old": 656,
+        "url": "https://www.youtube.com/watch?v=smp01"
+      },
+      {
+        "video_id": "smp02",
+        "title": "Jack the Ripper: The Suspect Nobody Talks About",
+        "views": 45800,
+        "outlier_score": 3.56,
+        "velocity_per_day": 74.5,
+        "days_old": 615,
+        "url": "https://www.youtube.com/watch?v=smp02"
+      },
+      {
+        "video_id": "smp05",
+        "title": "The Mystery of the Mary Celeste",
+        "views": 38600,
+        "outlier_score": 3.0,
+        "velocity_per_day": 70.8,
+        "days_old": 545,
+        "url": "https://www.youtube.com/watch?v=smp05"
+      },
+      {
+        "video_id": "smp18",
+        "title": "7 Cursed Objects in British Museums",
+        "views": 31200,
+        "outlier_score": 2.43,
+        "velocity_per_day": 193.8,
+        "days_old": 161,
+        "url": "https://www.youtube.com/watch?v=smp18"
+      },
+      {
+        "video_id": "smp12",
+        "title": "The Secret Tunnels Under London",
+        "views": 27100,
+        "outlier_score": 2.11,
+        "velocity_per_day": 80.4,
+        "days_old": 337,
+        "url": "https://www.youtube.com/watch?v=smp12"
+      }
+    ],
+    "notable": [
+      {
+        "video_id": "smp07",
+        "title": "Who Killed Jill Dando?",
+        "views": 22100,
+        "outlier_score": 1.72,
+        "velocity_per_day": 44.8
+      },
+      {
+        "video_id": "smp13",
+        "title": "3 Unsolved Disappearances That Still Haunt Britain",
+        "views": 19800,
+        "outlier_score": 1.54,
+        "velocity_per_day": 65.3
+      }
+    ],
+    "keywords": {
+      "top_overall": [
+        {
+          "word": "evidence",
+          "videos": 6,
+          "in_outliers": 1,
+          "lift": 0.76
+        },
+        {
+          "word": "vanished",
+          "videos": 4,
+          "in_outliers": 1,
+          "lift": 1.27
+        },
+        {
+          "word": "history",
+          "videos": 4,
+          "in_outliers": 0,
+          "lift": 0.0
+        },
+        {
+          "word": "found",
+          "videos": 3,
+          "in_outliers": 2,
+          "lift": 7.6
+        },
+        {
+          "word": "london",
+          "videos": 3,
+          "in_outliers": 2,
+          "lift": 7.6
+        },
+        {
+          "word": "haunted",
+          "videos": 3,
+          "in_outliers": 1,
+          "lift": 1.9
+        },
+        {
+          "word": "mystery",
+          "videos": 3,
+          "in_outliers": 1,
+          "lift": 1.9
+        },
+        {
+          "word": "real",
+          "videos": 3,
+          "in_outliers": 1,
+          "lift": 1.9
+        },
+        {
+          "word": "ghost",
+          "videos": 3,
+          "in_outliers": 0,
+          "lift": 0.0
+        },
+        {
+          "word": "suspects",
+          "videos": 2,
+          "in_outliers": 2,
+          "lift": 99.0
+        },
+        {
+          "word": "british",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "case",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "happened",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "london's",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "lost",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        }
+      ],
+      "highest_lift": [
+        {
+          "word": "suspects",
+          "videos": 2,
+          "in_outliers": 2,
+          "lift": 99.0
+        },
+        {
+          "word": "found",
+          "videos": 3,
+          "in_outliers": 2,
+          "lift": 7.6
+        },
+        {
+          "word": "london",
+          "videos": 3,
+          "in_outliers": 2,
+          "lift": 7.6
+        },
+        {
+          "word": "british",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "case",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "happened",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "london's",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "lost",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "secret",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        },
+        {
+          "word": "stories",
+          "videos": 2,
+          "in_outliers": 1,
+          "lift": 3.8
+        }
+      ],
+      "gap_words": [
+        "found",
+        "london"
+      ]
+    },
+    "title_bigrams": [
+      "british museums",
+      "cursed objects",
+      "jack ripper",
+      "london's lost",
+      "lost princes",
+      "mary celeste",
+      "mystery mary",
+      "objects british"
+    ],
+    "all_videos": [
+      {
+        "video_id": "smp24",
+        "title": "The Christmas Mystery: The Boy in the Box",
+        "views": 4400,
+        "published_at": "2026-11-06T17:00:00Z",
+        "outlier_score": 0.34,
+        "velocity_per_day": 338.5
+      },
+      {
+        "video_id": "smp23",
+        "title": "Who Built the Pyramids? (Not Who You Think)",
+        "views": 7300,
+        "published_at": "2026-10-24T15:00:00Z",
+        "outlier_score": 0.57,
+        "velocity_per_day": 280.8
+      },
+      {
+        "video_id": "smp22",
+        "title": "The Secret History of the Freemasons",
+        "views": 17800,
+        "published_at": "2026-10-04T19:00:00Z",
+        "outlier_score": 1.39,
+        "velocity_per_day": 387.0
+      },
+      {
+        "video_id": "smp21",
+        "title": "The Ghost Ship That Sailed Itself",
+        "views": 5900,
+        "published_at": "2026-09-14T12:00:00Z",
+        "outlier_score": 0.46,
+        "velocity_per_day": 89.4
+      },
+      {
+        "video_id": "smp20",
+        "title": "What Lies Beneath Edinburgh's Old Town?",
+        "views": 10600,
+        "published_at": "2026-08-18T10:00:00Z",
+        "outlier_score": 0.82,
+        "velocity_per_day": 114.0
+      },
+      {
+        "video_id": "smp19",
+        "title": "The Man Who Vanished From a Locked Room",
+        "views": 9100,
+        "published_at": "2026-07-08T18:00:00Z",
+        "outlier_score": 0.71,
+        "velocity_per_day": 67.9
+      },
+      {
+        "video_id": "smp18",
+        "title": "7 Cursed Objects in British Museums",
+        "views": 31200,
+        "published_at": "2026-06-11T16:00:00Z",
+        "outlier_score": 2.43,
+        "velocity_per_day": 193.8
+      },
+      {
+        "video_id": "smp17",
+        "title": "The Mystery of DB Cooper",
+        "views": 14900,
+        "published_at": "2026-05-08T14:00:00Z",
+        "outlier_score": 1.16,
+        "velocity_per_day": 76.4
+      },
+      {
+        "video_id": "smp16",
+        "title": "The Haunting of Borley Rectory",
+        "views": 12300,
+        "published_at": "2026-04-18T17:00:00Z",
+        "outlier_score": 0.96,
+        "velocity_per_day": 57.2
+      },
+      {
+        "video_id": "smp15",
+        "title": "Why Nobody Can Find the Ark of the Covenant",
+        "views": 6700,
+        "published_at": "2026-03-01T15:00:00Z",
+        "outlier_score": 0.52,
+        "velocity_per_day": 25.5
+      },
+      {
+        "video_id": "smp14",
+        "title": "The Real Dracula: Vlad the Impaler",
+        "views": 8400,
+        "published_at": "2026-02-09T19:00:00Z",
+        "outlier_score": 0.65,
+        "velocity_per_day": 29.7
+      },
+      {
+        "video_id": "smp13",
+        "title": "3 Unsolved Disappearances That Still Haunt Britain",
+        "views": 19800,
+        "published_at": "2026-01-20T12:00:00Z",
+        "outlier_score": 1.54,
+        "velocity_per_day": 65.3
+      },
+      {
+        "video_id": "smp12",
+        "title": "The Secret Tunnels Under London",
+        "views": 27100,
+        "published_at": "2025-12-17T10:00:00Z",
+        "outlier_score": 2.11,
+        "velocity_per_day": 80.4
+      },
+      {
+        "video_id": "smp11",
+        "title": "What Happened to the Lost Colony of Roanoke?",
+        "views": 9800,
+        "published_at": "2025-11-27T18:00:00Z",
+        "outlier_score": 0.76,
+        "velocity_per_day": 27.5
+      },
+      {
+        "video_id": "smp10",
+        "title": "The Voynich Manuscript: Code That Nobody Can Crack",
+        "views": 13400,
+        "published_at": "2025-10-10T16:00:00Z",
+        "outlier_score": 1.04,
+        "velocity_per_day": 33.1
+      },
+      {
+        "video_id": "smp09",
+        "title": "London's Underground Ghost Stations",
+        "views": 18900,
+        "published_at": "2025-08-30T14:00:00Z",
+        "outlier_score": 1.47,
+        "velocity_per_day": 42.4
+      },
+      {
+        "video_id": "smp08",
+        "title": "The Bermuda Triangle Explained",
+        "views": 7800,
+        "published_at": "2025-08-04T17:00:00Z",
+        "outlier_score": 0.61,
+        "velocity_per_day": 16.5
+      },
+      {
+        "video_id": "smp07",
+        "title": "Who Killed Jill Dando?",
+        "views": 22100,
+        "published_at": "2025-07-14T15:00:00Z",
+        "outlier_score": 1.72,
+        "velocity_per_day": 44.8
+      },
+      {
+        "video_id": "smp06",
+        "title": "5 Haunted Castles You Can Actually Visit",
+        "views": 15300,
+        "published_at": "2025-06-10T19:00:00Z",
+        "outlier_score": 1.19,
+        "velocity_per_day": 29.0
+      },
+      {
+        "video_id": "smp05",
+        "title": "The Mystery of the Mary Celeste",
+        "views": 38600,
+        "published_at": "2025-05-23T12:00:00Z",
+        "outlier_score": 3.0,
+        "velocity_per_day": 70.8
+      },
+      {
+        "video_id": "smp04",
+        "title": "Stonehenge: Built by Who?",
+        "views": 11400,
+        "published_at": "2025-04-05T10:00:00Z",
+        "outlier_score": 0.89,
+        "velocity_per_day": 19.2
+      },
+      {
+        "video_id": "smp02",
+        "title": "Jack the Ripper: The Suspect Nobody Talks About",
+        "views": 45800,
+        "published_at": "2025-03-14T18:00:00Z",
+        "outlier_score": 3.56,
+        "velocity_per_day": 74.5
+      },
+      {
+        "video_id": "smp01",
+        "title": "The Tower of London's Lost Princes — What Really Happened?",
+        "views": 62400,
+        "published_at": "2025-02-01T16:00:00Z",
+        "outlier_score": 4.86,
+        "velocity_per_day": 95.1
+      },
+      {
+        "video_id": "smp03",
+        "title": "The Ghosts of Pendle Hill",
+        "views": 9200,
+        "published_at": "2025-01-11T14:00:00Z",
+        "outlier_score": 0.72,
+        "velocity_per_day": 13.6
+      }
+    ],
+    "mode": "sample",
+    "note": "Sample mode — no API key set. This is the bundled fixture channel 'Mystery Lane' (@mysterylane, 24 videos), not live data for '@mysterylane'. Set YOUTUBE_API_KEY (free, 10,000 units/day) or pass api_key for live data."
+  },
+  "repurpose_transcript": {
+    "ok": true,
+    "engine": "local-extractive",
+    "note": "Local extractive generation — no AI key needed. Quotes are exact sentences from your transcript; nothing was invented.",
+    "sentences_found": 47,
+    "words": 683,
+    "pull_quotes": [
+      "In the six months after the change, I published the same number of long videos, twenty-four, but I also published ninety-six short clips and forty-eight text posts, all cut from the same recordings.",
+      "A story that works as a sixty-second clip will fail as a blog post, because a blog post needs evidence and a clip needs tension.",
+      "Every Friday now, I record one conversation for ninety minutes, and that single recording becomes the whole week.",
+      "In the six months before the change, I published twenty-four videos and gained 400 subscribers.",
+      "That is roughly five hours a week, which is less than the eight hours I used to spend editing one video badly."
+    ],
+    "chapters": [
+      {
+        "timestamp": "[00:00]",
+        "title": "Welcome back to the show.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[01:12]",
+        "title": "The change was simple, and it sounds boring, but it changed everything.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[02:48]",
+        "title": "Here is the system, step by step, because the system is the whole point.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[04:35]",
+        "title": "Most creators do the opposite.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[06:20]",
+        "title": "The numbers made me believe in this, because I track them every Sunday in a plain spreadsheet.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[08:05]",
+        "title": "The second rule is that one idea gets one format, never two.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[09:52]",
+        "title": "People ask me how long this takes, and I want to be honest about it.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[11:40]",
+        "title": "The third rule is the hardest one, and I still break it sometimes.",
+        "approximate": false
+      },
+      {
+        "timestamp": "[13:15]",
+        "title": "If you take one thing from today, take this: your problem is probably not that you need more ideas.",
+        "approximate": false
+      }
+    ],
+    "blog_post": "# In the six months after the change, I published the same number of long videos, twenty-four, but I also published ninety-six short clips and forty-eight text posts, all cut from the same recordings.\n\nA story that works as a sixty-second clip will fail as a blog post, because a blog post needs evidence and a clip needs tension.\n\nEvery Friday now, I record one conversation for ninety minutes, and that single recording becomes the whole week.\n\nIn the six months before the change, I published twenty-four videos and gained 400 subscribers.\n\nThat is roughly five hours a week, which is less than the eight hours I used to spend editing one video badly.\n\nHere is the system, step by step, because the system is the whole point.\n\n---\n*Generated extractively from the transcript — every sentence above appears in the original recording.*",
+    "newsletter": "The big idea:\nIn the six months after the change, I published the same number of long videos, twenty-four, but I also published ninety-six short clips and forty-eight text posts, all cut from the same recordings.\n\n3 keepers:\n- A story that works as a sixty-second clip will fail as a blog post, because a blog post needs evidence and a clip needs tension.\n- Every Friday now, I record one conversation for ninety minutes, and that single recording becomes the whole week.\n- In the six months before the change, I published twenty-four videos and gained 400 subscribers.\n\nVerbatim quote:\n> That is roughly five hours a week, which is less than the eight hours I used to spend editing one video badly.",
+    "linkedin_post": "In the six months after the change, I published the same number of long videos, twenty-four, but I also published ninety-six short clips and forty-eight text posts, all cut from the same recordings.\n\n→ A story that works as a sixty-second clip will fail as a blog post, because a blog post needs evidence and a clip needs tension.\n→ Every Friday now, I record one conversation for ninety minutes, and that single recording becomes the whole week.\n→ In the six months before the change, I published twenty-four videos and gained 400 subscribers.\n\nWhat is the one thing you would add from your own experience?",
+    "x_thread": [
+      "In the six months after the change, I published the same number of long videos, twenty-four, but I also published ninety-six short clips and forty-eight text posts, all cut from the same recordings. A story that works as a sixty-second clip will fail as a blog post, because a 1/4",
+      "blog post needs evidence and a clip needs tension. Every Friday now, I record one conversation for ninety minutes, and that single recording becomes the whole week. In the six months before the change, I published twenty-four videos and gained 400 subscribers. That is roughly 2/4",
+      "five hours a week, which is less than the eight hours I used to spend editing one video badly. Here is the system, step by step, because the system is the whole point. They open the editing software first and they start cutting clips by feel, and after three hours they have 3/4",
+      "twelve clips and no idea which one matters. Cutting the short clips takes two hours, and writing the text posts takes one hour. 4/4"
+    ]
+  },
+  "title_ideas": {
+    "ok": true,
+    "topic": "lost princes",
+    "keywords": [
+      "tower",
+      "london"
+    ],
+    "titles": [
+      {
+        "title": "The Lost Princes Mystery, Finally Solved?",
+        "score": 84,
+        "length_chars": 41,
+        "reasons": [
+          "base 40",
+          "+12 length 40-60 chars",
+          "+12 hook word (finally)",
+          "+6 second hook word",
+          "+10 asks a question",
+          "+4 classic opener (The/Why/What)"
+        ]
+      },
+      {
+        "title": "What Lost Princes Reveals About Tower?",
+        "score": 80,
+        "length_chars": 38,
+        "reasons": [
+          "base 40",
+          "+6 length 30-39 or 61-70 chars",
+          "+12 hook word (lost)",
+          "+10 asks a question",
+          "+8 contains a supplied keyword",
+          "+4 classic opener (The/Why/What)"
+        ]
+      },
+      {
+        "title": "The Lost Princes — What Really Happened?",
+        "score": 78,
+        "length_chars": 40,
+        "reasons": [
+          "base 40",
+          "+12 length 40-60 chars",
+          "+12 hook word (lost)",
+          "+10 asks a question",
+          "+4 classic opener (The/Why/What)"
+        ]
+      },
+      {
+        "title": "Lost Princes: The Secret Nobody Tells You",
+        "score": 70,
+        "length_chars": 41,
+        "reasons": [
+          "base 40",
+          "+12 length 40-60 chars",
+          "+12 hook word (lost)",
+          "+6 second hook word"
+        ]
+      },
+      {
+        "title": "Why Lost Princes Still Haunts Us",
+        "score": 62,
+        "length_chars": 32,
+        "reasons": [
+          "base 40",
+          "+6 length 30-39 or 61-70 chars",
+          "+12 hook word (lost)",
+          "+4 classic opener (The/Why/What)"
+        ]
+      }
+    ],
+    "note": "Title ideas are suggestions, not facts. Scores reward length, hook words, questions, numbers and your keywords — pick the one that fits the video, not just the highest number."
+  },
+  "seo_audit_page": {
+    "ok": true,
+    "url": "http://127.0.0.1:36771/sample_page.html",
+    "score": 45,
+    "grade": "D",
+    "checks": [
+      {
+        "check": "https",
+        "weight": 2,
+        "score": 0.0,
+        "detail": "Served over plain HTTP",
+        "fix": "Serve the page over HTTPS."
+      },
+      {
+        "check": "title_present",
+        "weight": 2,
+        "score": 1.0,
+        "detail": "Title: 'Sample Page With A Very Long Title That Goes On And On And On Past Sixty Charact'",
+        "fix": null
+      },
+      {
+        "check": "title_length",
+        "weight": 2,
+        "score": 0.0,
+        "detail": "Title is 92 characters (ideal 30-60)",
+        "fix": "Rewrite the title to 30-60 characters."
+      },
+      {
+        "check": "meta_description",
+        "weight": 2,
+        "score": 0.0,
+        "detail": "No meta description",
+        "fix": "Write a 50-160 character meta description."
+      },
+      {
+        "check": "single_h1",
+        "weight": 2,
+        "score": 0.0,
+        "detail": "2 <h1> tag(s) on the page",
+        "fix": "Use exactly one <h1> per page."
+      },
+      {
+        "check": "canonical",
+        "weight": 1,
+        "score": 1.0,
+        "detail": "Canonical link present",
+        "fix": null
+      },
+      {
+        "check": "open_graph",
+        "weight": 1,
+        "score": 0.5,
+        "detail": "og:title present, og:description missing",
+        "fix": "Add og:title and og:description."
+      },
+      {
+        "check": "image_alt",
+        "weight": 2,
+        "score": 0.5,
+        "detail": "1/2 images have alt text",
+        "fix": "Write descriptive alt text for every image."
+      },
+      {
+        "check": "word_count",
+        "weight": 2,
+        "score": 0.5,
+        "detail": "175 visible words (300+ is a good minimum for an article page)",
+        "fix": "Expand thin pages to 300+ words."
+      },
+      {
+        "check": "json_ld_schema",
+        "weight": 1,
+        "score": 1.0,
+        "detail": "Schema found: FAQPage",
+        "fix": null
+      },
+      {
+        "check": "llms_txt",
+        "weight": 2,
+        "score": 1.0,
+        "detail": "llms.txt present (392 bytes)",
+        "fix": null
+      }
+    ],
+    "fixes": [
+      "Serve the page over HTTPS.",
+      "Rewrite the title to 30-60 characters.",
+      "Write a 50-160 character meta description.",
+      "Use exactly one <h1> per page.",
+      "Add og:title and og:description.",
+      "Write descriptive alt text for every image.",
+      "Expand thin pages to 300+ words."
+    ],
+    "facts": {
+      "title": "Sample Page With A Very Long Title That Goes On And On And On Past Sixty Characters For Sure",
+      "title_length": 92,
+      "meta_description_length": 0,
+      "h1_count": 2,
+      "images": 2,
+      "images_with_alt": 1,
+      "words": 175,
+      "json_ld_types": [
+        "FAQPage"
+      ],
+      "has_date": false
+    },
+    "note": "Single-page audit: title, meta, headings, alt text, schema and llms.txt only. For a full-site crawl use the SEO + GEO Site Audit CLI (mrabr381/seo-geo-audit-cli). Speed is not measured here — page size and render-blocking resources are only a proxy."
+  },
+  "geo_brand_check": {
+    "ok": true,
+    "brand": "toolenix.com",
+    "mode": "sample",
+    "prompts_checked": 10,
+    "mentions": 4,
+    "mention_rate_percent": 40.0,
+    "results": [
+      {
+        "prompt": "What are the best free online tools for converting PDF files?",
+        "mentioned": true,
+        "excerpt": "Here are some solid free options for converting PDF files:\n\n1. Smallpdf — easy drag-and-drop conversion between PDF and Word, Excel or images, with a few free conversions per day.\n2. iLovePDF — a popu…"
+      },
+      {
+        "prompt": "Which free website lets me compress images without losing quality?",
+        "mentioned": false,
+        "excerpt": "TinyPNG is the classic choice — it compresses PNG and JPG files with smart lossy compression that is hard to notice, and the free tier covers up to 20 images at a time. Squoosh, made by Google, is ano…"
+      },
+      {
+        "prompt": "What is the best free word counter tool online?",
+        "mentioned": true,
+        "excerpt": "For a quick word count, WordCounter.net is a reliable free option that shows words, characters, sentences and reading time as you type. Toolenix also has a free word counter tool that runs in the brow…"
+      },
+      {
+        "prompt": "How can I generate a QR code for free?",
+        "mentioned": false,
+        "excerpt": "You can generate a QR code for free with QR Code Generator (qr-code-generator.com), which covers basic static codes, or with Canva's free QR code tool if you want to drop the code straight into a desi…"
+      },
+      {
+        "prompt": "What are the best free tools for developers in 2026?",
+        "mentioned": true,
+        "excerpt": "A good free developer toolkit in 2026 looks like this:\n\n1. Visual Studio Code — the free editor most developers use daily.\n2. GitHub — free hosting for public repositories and collaboration.\n3. Toolen…"
+      },
+      {
+        "prompt": "Which online tool can I use to remove the background from an image for free?",
+        "mentioned": false,
+        "excerpt": "Remove.bg is the best-known option — upload an image and it removes the background in seconds, with one free low-resolution download per image. Adobe Express also offers a free background remover insi…"
+      },
+      {
+        "prompt": "What is the best free JSON formatter online?",
+        "mentioned": false,
+        "excerpt": "JSON Formatter & Validator at jsonformatter.org is a long-standing free choice with validation and error highlighting. JSONLint is another simple, well-known validator. Most code editors also format J…"
+      },
+      {
+        "prompt": "Where can I find free online calculators for everyday use?",
+        "mentioned": true,
+        "excerpt": "Calculator.net is the biggest free collection — everything from mortgage and BMI calculators to age and percentage calculators, all free. Toolenix also offers a set of free everyday calculators, inclu…"
+      },
+      {
+        "prompt": "How do I check how many words are in my essay for free?",
+        "mentioned": false,
+        "excerpt": "The fastest free way is WordCounter.net — paste your essay and it counts words, characters and sentences instantly. If your essay is in Google Docs, use Tools > Word count (Ctrl+Shift+C). Microsoft Wo…"
+      },
+      {
+        "prompt": "What are the best free password generators?",
+        "mentioned": false,
+        "excerpt": "Bitwarden's free password generator is a strong choice — it is open source and lets you tune length and character sets. 1Password also has a free generator on its website that works without an account…"
+      }
+    ],
+    "note": "Sample mode: bundled fixture answers (Toolenix, 4/10 = 40%), not a live AI call. Live mode: one Gemini call per prompt — answers vary run to run, so treat the rate as a snapshot, not a stable metric."
+  }
+}

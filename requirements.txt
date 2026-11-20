@@ -1,0 +1,7 @@
+# Pinned to the versions actually tested (Python 3.12, mcp SDK v2).
+# mcp is the official Model Context Protocol Python SDK (v2 API:
+# MCPServer, formerly FastMCP). requests + beautifulsoup4 power the
+# single-page SEO audit. No other dependencies.
+mcp==2.3.0
+requests==2.32.3
+beautifulsoup4==4.13.4

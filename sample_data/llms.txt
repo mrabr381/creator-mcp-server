@@ -1,0 +1,10 @@
+# Sample llms.txt fixture — served alongside sample_page.html so the
+# seo_audit_page tool can find it on the same origin during tests.
+# https://llmstxt.org/
+
+# Creator MCP Server — test fixture site
+
+> A deliberately flawed single page used to test the seo_audit_page tool.
+
+- [Sample page](/sample_page.html): A test page with known SEO flaws.
+- [About](/about): About this test site.
